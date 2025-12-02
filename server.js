@@ -27,7 +27,7 @@ const MODEL_MAPPING = {
   'kimi-k2': 'moonshotai/kimi-k2-instruct-0905',
   'deepseek-v3.1': 'deepseek-ai/deepseek-v3.1',
   'gpt-oss-120b': 'openai/gpt-oss-120b',
-  'qwen3-236b': 'qwen/qwen3-235b-a22b',
+  'qwen3-235b': 'qwen/qwen3-235b-a22b',
   'qwen3-next-80b': 'qwen/qwen3-next-80b-a3b-thinking' 
 };
 

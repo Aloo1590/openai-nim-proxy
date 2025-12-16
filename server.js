@@ -25,7 +25,7 @@ const MODEL_MAPPING = {
   'minmax': 'minimaxai/minimax-m2',
   'deepseek-v3.1-terminus': 'deepseek-ai/deepseek-v3.1-terminus',
   'kimi-k2': 'moonshotai/kimi-k2-instruct-0905',
-  'deepseek-v3.1': 'deepseek-ai/deepseek-v3.1',
+  'deepseek-v3.2': 'deepseek-ai/deepseek-v3.2',
   'mistral-large': 'mistralai/mistral-large-3-675b-instruct-2512',
   'qwen3-235b': 'qwen/qwen3-235b-a22b',
   'qwen3-next-80b': 'qwen/qwen3-next-80b-a3b-thinking' 

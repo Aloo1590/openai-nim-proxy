@@ -22,7 +22,7 @@ const ENABLE_THINKING_MODE = true; // Set to true to enable chat_template_kwargs
 
 // Model mapping (adjust based on available NIM models)
 const MODEL_MAPPING = {
-  'minmax': 'minimaxai/minimax-m2',
+  'GLM': 'z-ai/glm4.7',
   'deepseek-v3.1-terminus': 'deepseek-ai/deepseek-v3.1-terminus',
   'kimi-k2': 'moonshotai/kimi-k2-instruct-0905',
   'deepseek-v3.2': 'deepseek-ai/deepseek-v3.2',

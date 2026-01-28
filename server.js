@@ -24,7 +24,7 @@ const ENABLE_THINKING_MODE = true; // Set to true to enable chat_template_kwargs
 const MODEL_MAPPING = {
   'GLM': 'z-ai/glm4.7',
   'deepseek-v3.1-terminus': 'deepseek-ai/deepseek-v3.1-terminus',
-  'kimi-k2': 'moonshotai/kimi-k2-instruct-0905',
+  'kimi': 'moonshotai/kimi-k2.5',
   'deepseek-v3.2': 'deepseek-ai/deepseek-v3.2',
   'mistral-large': 'mistralai/mistral-large-3-675b-instruct-2512',
   'qwen3-235b': 'qwen/qwen3-235b-a22b',

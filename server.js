@@ -28,7 +28,7 @@ const MODEL_MAPPING = {
   'deepseek-v3.2': 'deepseek-ai/deepseek-v3.2',
   'mistral-large': 'mistralai/mistral-large-3-675b-instruct-2512',
   'qwen3-235b': 'qwen/qwen3-235b-a22b',
-  'qwen3-next-80b': 'qwen/qwen3-next-80b-a3b-thinking' 
+  'deepseek-3.1': 'deepseek-ai/deepseek-v3.1' 
 };
 
 // Health check endpoint

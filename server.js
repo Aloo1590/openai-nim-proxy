@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(cors());
-app.use(express.json({ limit: '10mb' }));
+app.use(express.json({ limit: '50mb' }));
 
 // NVIDIA NIM API configuration
 const NIM_API_BASE = process.env.NIM_API_BASE || 'https://integrate.api.nvidia.com/v1';
@@ -21,19 +21,19 @@ const REQUEST_TIMEOUT = parseInt(process.env.REQUEST_TIMEOUT) || 120000; // 2 mi
 
 // Model mapping with better organization
 const MODEL_MAPPING = {
-  // GPT models
-  'gpt-3.5-turbo': 'meta/llama-3.1-8b-instruct',
-  'gpt-4': 'meta/llama-3.1-70b-instruct',
-  'gpt-4-turbo': 'meta/llama-3.1-405b-instruct',
-  'gpt-4o': 'deepseek-ai/deepseek-v3.1',
+  // Deepseek and mistralmodels
+  'deepseek-v3.1-terminus': 'deepseek-ai/deepseek-v3.1-terminus',
+  'deepseek-v3.2': 'deepseek-ai/deepseek-v3.2',
+  'mistral': 'mistralai/mistral-large-3-675b-instruct-2512',
+  'deepseek-v3.1': 'deepseek-ai/deepseek-v3.1',
   
-  // Claude models
-  'claude-3-opus': 'meta/llama-3.1-405b-instruct',
-  'claude-3-sonnet': 'meta/llama-3.1-70b-instruct',
-  'claude-3-haiku': 'meta/llama-3.1-8b-instruct',
+  // other Models
+  'minimax': 'minimaxai/minimax-m2.1',
+  'stepfun': 'stepfun-ai/step-3.5-flash',
+  'kimi': 'moonshotai/kimi-k2.5',
   
   // Gemini models
-  'gemini-pro': 'meta/llama-3.1-70b-instruct',
+  'GLM': 'z-ai/glm4.7',
   
   // Direct NIM models (passthrough)
   'meta/llama-3.1-8b-instruct': 'meta/llama-3.1-8b-instruct',

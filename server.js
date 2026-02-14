@@ -33,7 +33,8 @@ const MODEL_MAPPING = {
   'kimi': 'moonshotai/kimi-k2.5',
   
   // Gemini models
-  'glm': 'z-ai/glm4.7',
+  'glm4.7': 'z-ai/glm4.7',
+  'glm5': 'z-ai/glm5',
   
   // Direct NIM models (passthrough)
   'meta/llama-3.1-8b-instruct': 'meta/llama-3.1-8b-instruct',

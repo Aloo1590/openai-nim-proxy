@@ -12,7 +12,7 @@ const NIM_API_BASE = process.env.NIM_API_BASE || 'https://integrate.api.nvidia.c
 const NIM_API_KEY = process.env.NIM_API_KEY;
 const SHOW_REASONING = process.env.SHOW_REASONING === 'true';
 const ENABLE_THINKING_MODE = process.env.ENABLE_THINKING_MODE === 'true';
-const REQUEST_TIMEOUT = parseInt(process.env.REQUEST_TIMEOUT) || 120000;
+const REQUEST_TIMEOUT = parseInt(process.env.REQUEST_TIMEOUT) || 300000;
 
 const MODEL_MAPPING = {
   'deepseek-v3.1-terminus': 'deepseek-ai/deepseek-v3.1-terminus',
